@@ -92,7 +92,7 @@ ${currentUrl} \n\n\n\nThanks!\n\n\n`
 
             <div className="p-4">
 
-              <h2 className="fw-bold mb-3 text-light">
+              <h2 className="fw-bold mb-3 text-primary">
 
                 {subService.name}
 
