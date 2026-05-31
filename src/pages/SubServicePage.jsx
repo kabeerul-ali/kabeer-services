@@ -104,7 +104,7 @@ ${currentUrl} \n\n\n\nThanks!\n\n\n`
 
               </h4>
 
-              <p className="text-light">
+              <p className="textforsevicedetail">
 
                 {subService.description}
 
