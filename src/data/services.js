@@ -15,9 +15,20 @@ const services = [
     description: "Professional curtain rod installation service.",
     subServices: [
       {
-        id: "new-rod-installation",
+        id: "with material ",
         name: "New Rod Installation",
-        price: "₹120 /ft",
+        price: "₹150 /ft",
+        image: optimizeImage(
+          "https://res.cloudinary.com/dfjttwg1q/image/upload/v1778658914/curtain_road_dnxwik.png"
+        ),
+        description: "Strong and premium curtain rod fitting service.",
+        whatsappMessage:
+          "Hello Kabeer Services, I need New Rod Installation service.",
+      },
+       {
+        id: "labour rate ",
+        name: "New Rod Installation",
+        price: "40 /ft",
         image: optimizeImage(
           "https://res.cloudinary.com/dfjttwg1q/image/upload/v1778658914/curtain_road_dnxwik.png"
         ),
@@ -73,8 +84,19 @@ const services = [
     subServices: [
       {
         id: "balcony-net-installation",
-        name: "Balcony Net Installation",
-        price: "₹12 /sqft",
+        name: "with material",
+        price: "₹15 /sqft",
+        image: optimizeImage(
+          "https://res.cloudinary.com/dfjttwg1q/image/upload/v1778658796/pigen_net_xkwhml.png"
+        ),
+        description: "Professional balcony pigeon net installation.",
+        whatsappMessage:
+          "Hello Kabeer Services, I need Balcony Net Installation service.",
+      },
+      {
+        id: "balcony-net-installation labour rate ",
+        name: "labour rate",
+        price: "₹6 /sqft",
         image: optimizeImage(
           "https://res.cloudinary.com/dfjttwg1q/image/upload/v1778658796/pigen_net_xkwhml.png"
         ),
